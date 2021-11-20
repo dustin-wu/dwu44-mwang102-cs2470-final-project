@@ -1,0 +1,71 @@
+To learn  one's  longitude  at sea, one needs  to know what  time  it  is  aboard  ship  and  also  
+the  time  at  the home  port or another  place of  known  longitude—at  that very  same  moment.  
+The  two  clock  times  enable  the
+navigator  to  convert  the  hour  difference  into  a  geo- graphical  separation.  Since  the  
+Earth  takes  twenty-four hours  to  complete  one  full  revolution  of  three  hundred sixty  
+degrees,  one  hour  marks  one  twenty-fourth  of  a spin, or fifteen  degrees.  And  so each  
+hour’ s time difference  between  the  ship  and  the  starting  point  marks  a progress  of  fifteen  degrees  
+of  longitude  to  the  east  or west.  Every  day  at  sea,  when  the  navigator  resets  the 
+ship’ s  clock  to  local  noon  when  the  sun  reache s  its highest  point  in  the  sky,  and  
+then  consults  the  home-
+port  cloc k,  every  hour’ s  discrepanc y  between  them translates  into another fifteen 
+degrees of  longitude.
+
+Those  same  fifteen  degrees  of  longitude  also  cor- respond  to  a  distance  traveled.  At  
+the  Equator,  where the girth of  the Earth  is greatest,  fifteen  degrees  stretch
+fully  one  thousand  miles.  North  or  south  of  that  line, however,  the  mileage  value  
+of  each  degree  decreases. One  degree  of  longitude  equals  four  minutes  of  time the  world 
+ over,  but  in  terms  of  distance,  one  degree shrinks  from  sixty-eight  miles  at  the  
+Equator  to  virtually  nothing  at the poles.
+
+Precise  knowledge  of  the  hour  in  two  different places  at  on ce—a  long itu de  
+prerequisite  so  eas ily accessible  today  from  any  pair of  cheap  wristwatches— was  utterly  
+unattainable  up  to  and  including  the  era  of
+pendulum  clocks.  On  the  deck  of  a  rolling  ship,  such clocks  would  slow  down,  or  
+speed  up,  or  stop  running altogether.  Normal  changes  in temperature  encountered en route 
+from a cold country  of origin to a tropical  trade zone  thinned  or  thickened  a  clock’s  
+lubricating  oil  and
+made  its  metal  parts  expand  or  contract  with  equally disastrous  results.  A rise  or 
+fall  in  barometric  pressure, or  the  subtle  variations  in  the  Earth's  gravity  from  one 
+latitude  to  another,  could  also  cause  a  clock  to  gain  or lose time.
+
+         For  lack  of  a practical  method  of  determining  lon- gitude,  every  great  
+captain  in  the  Age  of  Exploration became  lost  at sea  despite  the  best  available  charts  
+and compasses.  Untold  numbers  of  sailors  died  when  their destinations  suddenly  loomed  out 
+ of  the  sea  and  took
+them  by  surprise.  In  a  single  such  accident  on  October 22,  1707, at the Scilly  Isles 
+ near  the southwestern  tip of England,  nearly  two thousand  men lost their lives.
+
+The  quest  for  a  solution  to  the  problem  of  longi- tude  persisted  over  four  centuries  
+and  across  the  whole
+continent  of   Europe.  The  B ritis h  Parliament,  in  its famed  Longitude  Act of  1 714,  
+set the highest  bounty  of all,  naming  a  prize  equal  to  several  million  dollars  in 
+today's  currency  for  a  “Practicable  and  Useful”  means ot determining  longitude.
+ACT-59F-PRACTICE                                                                                    
+
+          English  clockmaker  John  Harrison,  a  mechanical genius  who  pioneered  the  
+science  of  portable  precision timekeeping,  devoted  his  life  to  this  quest.  He  accom- pl 
+is hed  wh at  Ne wton  had  fe ared  i mp os si b le:   He invented  a clock  that  would carry  
+the true  time from the
+home  port,  like  an  eternal  flame,  to  any  remote  corner of  the  world.
+With  no formal  education  or apprenticeship to any watchmaker,  Harri son  nevertheless  
+constructed  a  series of  virtually  friction-tree clocks  that required  no lubrica-
+tion  and  no  cleaning,  that  were  made  from  materials impervious  to rust, and that kept 
+their moving  parts per- fectly  balanced  in  relation  to one  another,  regardless  of how  the  
+world  pitched  or  tossed  about  them.  He  did away  with  the  pendulum,  and  he  combined  
+different
+metals  inside  his  works  in  such  a  way  that  when  one component  expanded  or  
+contracted  wi th  changes  in temperature,  the other counteracted  the change and kept the clock’ 
+s rate constant.
+His  every  success,  however,  was  parried  by  mem—
+bers  of  the  scientific  elite,  who  distrusted  Harrison’ s magic  box.  The  commissioners 
+ charged  with  awarding the  longitude  prize changed  the  contest  rules  whenever they  saw  
+fit,  so  as  to favor  the  chances  of  astronomers over  the  likes  of  Harrison  and  his  
+fellow  “mechanics.”
+But  the utility  and  accuracy  of  Harrison’ s  approach  tri- umphed  in  the  end.  In  
+1773  he  claimed  his  righttul reward.  His  followers  shepherded  Harrison’ s  intricate, 
+exquisite  invention  through  the  design  modifications that enabled  it  to be mass produced  
+and enjoy  wide use.
+
+         To  retrace  this  story  in  an  age  when  a  network  of satellites  can  nail  
+down  a  ship's  position  within  a  few feet in just a moment or two—is  to see the globe anew.
