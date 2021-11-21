@@ -1,25 +1,38 @@
 import os
-def read_passages(dir):
-    passages = []
-    passage_index_dictionary = {} # so we can access a passage in a 1D list from test# + passage#
-    for test_folder in os.listdir(dir):
-        if test_folder.startswith('.'):
-            continue
-        passages_from_one_test = []
-        for passage_file in os.listdir(os.path.join(dir, test_folder)):
-            if passage_file.startswith('.'):
-                continue
+import csv
+
+def read_passages(dir, num_tests=15):
+    passage_dictionary = {}
+    test_folders = []
+    for i in range(num_tests):
+        test_folders.append('test' + str(i + 1))
+    for test_index, test_folder in enumerate(test_folders):
+        passage_files = sorted(filter(lambda folder: not folder.startswith('.'), os.listdir(os.path.join(dir, test_folder))))
+        for passage_index, passage_file in enumerate(passage_files):
             with open(os.path.join(dir, test_folder, passage_file)) as file:
-                passages_from_one_test.append(file.read())
-        passages.append(passages_from_one_test)
-    return passages
+                passage_dictionary[(test_index + 1, passage_index + 1)] = file.read()
+    return passage_dictionary
 
-sat_passages = read_passages('sat_data/passages')
-act_passages = read_passages('act_data/passages')
-all_passages = sat_passages + act_passages
-passages_flattened = []
-for test in all_passages:
-    for passage in test:
-        passages_flattened.append(test)
+passages = read_passages('all_data/passages') # to get 4th passage of 14th test do passages[(14, 4)]
+print(passages[(14, 4)])
 
-print(len(passages_flattened))
+def read_questions(dir, num_tests=15):
+    question_dictionary = {}
+    test_files = []
+    for i in range(num_tests):
+        test_files.append('test' + str(i + 1) + '.csv')
+    for test_index, test_file in enumerate(test_files):
+        with open(os.path.join(dir, test_file), newline='') as csvfile:
+            reader = csv.reader(csvfile, delimiter=',', quotechar='"')
+            for question_index, row in enumerate(reader):
+                if question_index == 0:
+                    continue # ignore header
+                question, choice_A, choice_B, choice_C, choice_D, answer, passage_index = row
+                if (test_index + 1, int(passage_index)) in question_dictionary:
+                    question_dictionary[(test_index + 1, int(passage_index))].append([question, choice_A, choice_B, choice_C, choice_D, answer])
+                else:
+                    question_dictionary[(test_index + 1, int(passage_index))] = [[question, choice_A, choice_B, choice_C, choice_D, answer]]
+    return question_dictionary
+
+questions = read_questions('all_data/questions') # to get list of questions for 4th passage of 14th test do questions[(14, 4)]
+print(questions[(14, 4)][0])
