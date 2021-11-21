@@ -1,0 +1,74 @@
+Astronomers  sometimes  describe  the  shape  of  our home  galaxy,  the  Milky  Way,  as a  
+thin-crust  pizza  with a  plum  stuck  in  the  middle.  The  plum  is  the  slightly oblong  
+central  bulge,  protruding  about  3,0light-
+years  above  and  below  the  galactic  plane,  comprised mostly  of  older  stars; it makes  
+up  the core of  the Milky Way,  and  includes  a  black  hole  two  and  a  half  million times  
+the  mass  of  the Sun.  The  crust  of  the  pizza  is the galactic  disk—the  source  of  most  
+of  our  galaxy's  light.
+Thin  and  flat,  the  disk  is  100,0light-years  across, about  1,0light-years  
+thick,  on  average,  and  includes more  than  80 percent  of  the galaxy's  hundred  billion  or 
+so stars.
+The  plum-and-pizza  picture  works  well  enough,
+but  like  most  simple  metaphors,  it  breaks  down  if  you push  it.  For  one  thing,  the 
+ galactic  disk  isn’t  a  rigid body,  but  a  loose  agglomeration  of  matter  streaming around  
+a  common  center  of  gravity.  (The  swirling  pat- tern  of  a  hurricane  far  better  
+resembles  our  spinning
+galaxy.)  For  another  thing,  our  galaxy's  disk  isn't  flat; it's  warped.  Picture  a 
+disk  of  pizza  dough  spun into the air  by  a  skilled  chef:  our galaxy  goes  through  the 
+same kind  of  floppy,  wobbly  gyrations,  though  at  a rate  best measured  in  revolutions  per 
+ hundreds  of  millions  of
+years.
+
+Why   does   the  Milky   Way   have   such   an   odd- looking  warp?  No  definitive  answer  has 
+ emerged.  One thing  we  do  know:  when  it comes  to  warps,  our  galaxy is  hardly  unique.  
+About  half  of  all  spiral  galaxies  are
+warped  to  some  degree.  Theoretical  and  computational models have shown  that a number  of 
+ physical  processes can warp a galaxy,  so it's a matter of  figuring  out which scenario  
+applies.  An  innovative  analysis  of  the problem by  Jeremy  Bailin,  an  astronomy  graduate  
+student  at  the
+University  of  Arizona  in Tucson,  has implicated  a small satellite  galaxy,  currently  
+being  ripped  to  shreds  by  the gravity  of  the Milky Way.
+
+The Sagittarius  Dwarf  Spheroidal  Galaxy  was  dis— covered  in  1994.  It  appears  to  be  in  
+a  roughly  polar
+orbit  around  the  Milky  Way—that  is,  above  and  below the  galactic  disk—about  50,0
+light-years  from  the galactic  center.  That  orbit  brings  the  dwarf  galaxy  far too  close  
+to  the  huge  gravitational  tidal  forces  of  the Milky  Way  for  the  dwarf  to  remain  
+intact.  As  a  result,
+the Sagittarius  Dwarf  now  looks  something  like  strands of  spaghetti  spilling  from  the 
+ front  of  a  pasta-making machine,  the galaxy's  matter  being  drawn out over hun- dreds of  
+millions of  years by intergalactic  tides.
+Grav itational  coll is ions  between  small  satellite
+galaxies   and   big   spiral   galaxies   have   long   been regarded  as  possible  culprits  
+in  the  warping  of  a larger galaxy's  disk.  The  best  known  satellite  galaxies  orbit- ing  
+the  Milky  Way—the  Large  and  Small  Magellanic Clouds—are  too  far  away,  and  have  the  
+wrong  orbital
+
+characteristics,  to  have  warped  our  galactic  home.  The Sagittarius  Dwarf  seems  a much 
+ more  likely  candidate, simply  because  it  is  only  a  third  as  far  from  the  center of  
+the  Milky  Way  as  the  Magellanic  Clouds.  But  in astronomy—unlike  in  real  estate—location  
+isn’t  every-
+thing;  to  show  a  direct  connection  between  warp  and dwarf,  the orbital motion  of  the 
+Sagittarius  Dwarf  must be linked  to the rotation of  the Milky  Way's disk.
+
+Bailin's  study  is  the  first  to  find  such  a  link.  His analysis   of   the  galactic   warp 
+  is   based   on   angular
+momentum—a  measure  of  how  much  a  system  is  spin- ning  or  rotating.  Just  as  objects 
+ moving  in  a  straight line  have   momentum,   objects   spinning   or  orbiting around  an  
+axis have angular  momentum;  and  just  as  the momenta  of  two objects  combine  when  they  
+collide,  so
+too  do  their  angular   momenta.   Imagine   two  figure skaters  coming  together  for  a  
+combination  spin.  When they  make  physical  contact,  their  individual  spiraling motions 
+combine  to produce a single, unified  whirl.
+Starting  with  the latest  measurements  of  the struc-
+ture  and  spin  of  the  Milky  Way,  Bailin  deduced  the angular  momentum  of  the  warped  
+portion  ot  the  Milky Way's  disk.  He  then  compared  that  measure  with  the angular   
+momentum   of   the   Sagittarius   Dwarf—and found for the first  time,  within  the margins  of  
+measure-
+ment  error,  that  the  two  angular  momenta  are  identical in  both  quantity  and  
+direction.  Such  a  coupling  of  the angular  momenta  of  two  bodies  almost  never  happens by 
+ chance;  usually,  it  takes  place  only  when  two  spin- ning  systems,  like  the  skaters,  
+come  into  contact.  The
+coupling  isn’t  enough  to  prove  cause  and  effect  by itself,  but  it's  solid  
+circumstantial  evidence  that  the interaction  of  the Sagittarius  Dwarf  with the Milky Way 
+disk created  the warp in our galaxy.
