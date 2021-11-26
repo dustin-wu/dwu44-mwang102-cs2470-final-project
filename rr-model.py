@@ -102,6 +102,10 @@ def predict(raw_input):
         labels = torch.reshape(labels, (1, -1))
         labels = labels.type(torch.FloatTensor)
 
+        print(input_ids.shape)
+        print(attention_mask.shape)
+        print(labels.shape)
+
         question_encoded = {
             "input_ids": input_ids,
             "attention_mask": attention_mask,
