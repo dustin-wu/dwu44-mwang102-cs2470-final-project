@@ -158,10 +158,10 @@ def train_context_model(filename):
 
             # tokenize question + answer with context
             enc_input = tokenizer(
-                question, # the question is our context
-                context_option,
+                context_option, # only use the slice of context as our context
+                question,
                 add_special_tokens=True,
-                max_length=MAX_SEQ_LENGTH,
+                max_length=512,
                 padding="max_length",
                 truncation=True,
                 return_overflowing_tokens=False,
@@ -193,7 +193,7 @@ def train_context_model(filename):
         loss.backward()
         optimizer.step()
 
-    model.save_pretrained('finetuned_context_model_V2')
+    model.save_pretrained('finetuned_context_model_V3')
   
     
 

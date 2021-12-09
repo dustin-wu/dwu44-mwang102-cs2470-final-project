@@ -128,8 +128,6 @@ def train_model(raw_input):
     model.save_pretrained('finetuned_model_V2')
 
 def forward_pass_with_context(qn, c0, c1, c2, c3, test_num, passage, context_model):
-    context_model = RobertaForMultipleChoice.from_pretrained('finetuned_context_model_V2')
-
     passage_path = 'all_data/passages/test{}/passage{}.txt'.format(test_num, passage)
     with open(passage_path) as file:
         context = file.read()
@@ -181,7 +179,7 @@ def forward_pass_with_context(qn, c0, c1, c2, c3, test_num, passage, context_mod
     return output
 
 def predict_with_context(raw_input):
-    context_model = RobertaForMultipleChoice.from_pretrained('finetuned_context_model_V2')
+    context_model = RobertaForMultipleChoice.from_pretrained('finetuned_context_model_V3')
 
     predicted = []
     finetuned_model.eval()
@@ -205,14 +203,31 @@ def predict_with_context(raw_input):
 
     return predicted
 
-def accuracy(predicted_answers, actual_answers):
+def accuracy(raw_input, predicted_answers, actual_answers):
     accuracy = []
 
-    for predicted, actual in zip(predicted_answers, actual_answers):
+    for index, (predicted, actual) in enumerate(list(zip(predicted_answers, actual_answers))):
         if predicted == actual:
             accuracy.append(1)
+            print("---------- Answered Correctly ----------")
+            print(raw_input["questions"][index])
+            print(raw_input["choice0s"][index])
+            print(raw_input["choice1s"][index])
+            print(raw_input["choice2s"][index])
+            print(raw_input["choice3s"][index])
+            print("Actual: ", actual_answers[index], ", Predicted: ", predicted_answers[index])
+            print("----------------------------------------")
         else:
             accuracy.append(0)
+            print("---------- Answered Incorrectly ----------")
+            print(raw_input["questions"][index])
+            print(raw_input["choice0s"][index])
+            print(raw_input["choice1s"][index])
+            print(raw_input["choice2s"][index])
+            print(raw_input["choice3s"][index])
+            print(raw_input['answers'][index])
+            print("Actual: ", actual_answers[index], ", Predicted: ", predicted_answers[index])
+            print("----------------------------------------")
 
     return sum(accuracy)/len(accuracy)
 
@@ -234,10 +249,10 @@ def main():
     train_questions = get_data(train_numbers, questions)
 
     # finetune model on train set
-    #train_model(train_questions) # Uncomment if training for 1st time
+    train_model(train_questions) # Uncomment if training for 1st time
 
     # create context model data 
-    #create_context_data(train_questions, 'context_data_train_V2.csv')
+    create_context_data(train_questions, 'context_data_train_V2.csv')
     
     # train context model
     train_context_model('context_data_train_V2.csv')
@@ -260,7 +275,7 @@ def main():
     predicted_answers = predict_with_context(test_questions) # predicted_answers = predict(test_questions)
     actual_letter_answers = test_questions['answers']
     actual_answers = convert_actual_answers(actual_letter_answers)
-    acc = accuracy(predicted_answers, actual_answers)
+    acc = accuracy(test_questions, predicted_answers, actual_answers)
     num_test_questions = len(test_questions['questions'])
     print(f'test set accuracy (num_questions: {num_test_questions}, max_seq_length: {MAX_SEQ_LENGTH}) : {acc}')
 
