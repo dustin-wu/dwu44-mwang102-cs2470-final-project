@@ -1,5 +1,7 @@
 **CS1470/2470 Final Project**
 
+![Poster](poster.jpg)
+
 **Members:**
 
 Dustin Wu, Milanca Wang  
